@@ -1,0 +1,39 @@
+{
+  "name": "myfoscam-client",
+  "description": "simple client for Foscam HD cameras providing a few basic operations",
+  "version": "0.2.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinhulin/myfoscam-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justinhulin/myfoscam-client/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "prompt": "~0.2.11",
+    "nconf": "~0.6.7"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "foscam",
+    "camera",
+    "webcam",
+    "hd",
+    "9821"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/discgolfer1138/myfoscam-client/raw/master/LICENSE"
+  }
+}
